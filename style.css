@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+  body{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+  }
+
+  .clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .float-left{
+    float: left;
+  }
+
+  a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 80%;
+  }
+
+  header{
+    height: 550px;
+    background-color: #0c325A;
+    color:white ;
+  }
+
+  .top-container{
+    width: 100%;
+    height: 100%;
+    padding: 0 10%;
+    background-position: 115% 100%;
+    background-image: url(img/background-header.png);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+  }
+  
+  nav{
+    height: 80px;
+    line-height: 80px;
+    overflow: hidden;
+  }
+
+  nav ul{
+    list-style: none;
+  }
+
+  nav ul li{
+    display: inline;
+    padding: 10px;
+  }
+
+  nav .logotipo{
+    width: 15%;
+  }
+
+  .logotipo img{
+    margin-top: 14px;
+    margin-left:  ;
+  }
+
+  nav .pulsantiera-menu{
+    width: 45%;
+  }
+
+  nav .log-in{
+    width: 40%;
+    text-align: right;
+  }
+
+  .btn{
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+    line-height: 20px;
+    padding: 5px 10px;
+  }
+
+  .btn.btn-blue{
+    border: 1px solid white;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .btn.btn-green{
+    background-color: #7CBC05;
+  }
+
+  .btn.btn-large{
+    padding: 20px;
+  }
